@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+/* Color Scheme
+deep blue: #2f4454
+purple: #2e151b
+salmon: #da7b93
+deep teal: #376e6f
+deep green: #1c333f
+*/
+
+/* Scheme 2
+deep purple: #59253a
+deep magenta: #78244c
+reddish brown: #895961
+popping blue: #0677a1
+serious blue: #2d4159
+
+great yellow: #faed26
+*/
 
 html {
   font-family: 'Libre Caslon Text', georgia, serif;
-  background-color: gray;
+  background-color: rgb(255, 237, 137);
+  padding: 0px;
 }
 
 body {
-  background-color: white;
+  margin: 0px;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #59253a 15%, #2d4159 50%, #0677a1 75%);
 }
 
+h1 {
+  font-family: 'Share Tech Mono', monospace;
+  color: #faed26;
+  margin: 0px;
+}
+
+p {
+  font-family: 'PT Mono', serif;
+  margin: 0px;
+}

@@ -3,11 +3,15 @@ import bundles from './bundles.js';
 
 const View = {
   renderDisplay(which) {
+    const display = document.getElementsByClassName('display')[0];
+    while (display.firstChild) {
+      display.removeChild(display.firstChild);
+    }
     switch (which) {
       case 'bio':
         break;
       case 'projects':
-        View.renderProjects();
+        View.renderProjects(display);
         break;
       case 'blog':
         break;
@@ -16,11 +20,10 @@ const View = {
         break;
     }
   },
-  renderProjects() {
-    const display = document.getElementsByClassName('display')[0];
-    while (display.firstChild) {
-      display.removeChild(display.firstChild);
-    }
+  renderBio(display) {
+
+  },
+  renderProjects(display) {
     display.append(Templates.projectList(bundles));
   }
 };

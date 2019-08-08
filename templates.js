@@ -1,6 +1,10 @@
 import Controller from './controller.js';
 
 const Templates = {
+  myBio() {
+    //  create document fragment from some html
+    //  return that
+  },
   projectList(bundles) {
     const list = document.createElement('div');
     list.setAttribute('class', 'projectList');

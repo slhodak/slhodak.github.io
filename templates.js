@@ -1,9 +1,19 @@
 import Controller from './controller.js';
 
 const Templates = {
-  myBio() {
-    //  create document fragment from some html
-    //  return that
+  myBio(info) {
+    const bio = document.createElement('div');
+    bio.innerHTML = `
+      <div class="bio">
+        <p>${info.personal}</p>
+        <p>I can't stop listening to</p>
+        <div class="spinContainer">
+          <a href="${info.song.url}" target="_blank"><img class="albumArt" src="images/album-art.jpg" target="_blank"></img></a>
+        </div>
+        <img class="bioDivider" src="images/floral.svg"></img>
+        <p class="techBio">${info.technical}</p>
+      </div>`;
+    return bio;
   },
   projectList(bundles) {
     const list = document.createElement('div');

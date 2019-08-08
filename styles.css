@@ -151,8 +151,8 @@ body {
 }
 
 .projectListItem:hover {
-  /* background-image: linear-gradient(to bottom left, rgba(68, 190, 247, 0.461) 10%, rgba(45, 232, 45, 0.509), rgba(226, 235, 46, 0.467)); */
-  background-color: rgba(255, 255, 255, 0.228);
+  background-image: linear-gradient(to bottom left, rgba(68, 190, 247, 0.461) 10%, rgba(45, 232, 45, 0.509), rgba(226, 235, 46, 0.467));
+  /* background-color: rgba(255, 255, 255, 0.228); */
   border-radius: 4px;
 }
 
@@ -162,6 +162,10 @@ body {
   align-items: center;
 }
 
+.projectTitle {
+  font-weight: 100;
+}
+
 .projectImage {
   align-self: center;
   height: 100px;
@@ -169,4 +173,12 @@ body {
 
 .projectDetails {
   padding: 10px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.projectListItem:hover ul {
+  list-style-type: lower-greek;
 }

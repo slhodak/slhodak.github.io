@@ -1,5 +1,5 @@
 import Templates from './templates.js';
-import bundles from './bundles.js';
+import projects from './projects.js';
 
 const View = {
   renderDisplay(which) {
@@ -24,7 +24,7 @@ const View = {
 
   },
   renderProjects(display) {
-    display.append(Templates.projectList(bundles));
+    display.append(Templates.projectList(projects));
   }
 };
 

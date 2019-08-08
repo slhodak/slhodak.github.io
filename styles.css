@@ -26,7 +26,6 @@
 
 @media screen and (min-width: 800px) {
   .content {
-    display: flex;
     margin: 0px, 20px;
   }
 
@@ -35,17 +34,10 @@
   }
   
   .navigator {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 20px;
   }
   
   .display {
-    flex-grow: 5;
-    background-color: rgba(203, 203, 203, 0.3);
-    height: 85vh;
     margin-right: 20px;
     border-radius: 5px;
   }
@@ -54,7 +46,6 @@
 
 @media screen and (max-width: 800px) {
   .content {
-    display: flex;
     flex-direction: column;
   }
 
@@ -63,16 +54,10 @@
   }
   
   .navigator {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
   
   .display {
-    flex-grow: 5;
-    background-color: rgba(255, 255, 255, 0.2);
-    height: 85vh;
     margin-right: 0px;
     border-radius: 0px;
   }
@@ -89,13 +74,26 @@ html {
   font-family: 'schematic Regular', monospace;
 }
 
+.content {
+  display: flex;
+}
+
 .navigator {
   margin: 0px 30px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .display {
+  height: 85vh;
+  background-color: rgba(203, 203, 203, 0.3);
+  flex-grow: 5;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 body {

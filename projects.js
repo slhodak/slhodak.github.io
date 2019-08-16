@@ -37,6 +37,6 @@ export default [
       technologies: ["jQuery"],
     },
     image: "islanders.png",
-    links: "https://slhodak.github.io/Islanders"
+    link: "https://slhodak.github.io/Islanders"
   }
 ];

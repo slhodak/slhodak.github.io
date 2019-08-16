@@ -6,14 +6,18 @@ const Templates = {
     bio.innerHTML = `
       <div class="bio">
         <p>${info.personal}</p>
-        <img class="bioDivider" src="images/floral.svg"></img>
         <p class="techBio">${info.technical}</p>
+        <img class="bioDivider" src="images/floral.svg"></img>
       </div>`;
     return bio;
   },
   projectList(bundles) {
     const list = document.createElement('div');
+    const header = document.createElement('h2');
+    header.setAttribute('class', 'projectListHeader');
+    header.innerText = 'Projects';
     list.setAttribute('class', 'projectList');
+    list.append(header);
     bundles.forEach(info => {
       list.append(Templates.projectListItem(info));
     });

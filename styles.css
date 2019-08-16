@@ -1,46 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans|Major+Mono+Display|PT+Mono|Share+Tech+Mono|Libre+Caslon+Text&display=swap');
 
-@media screen and (min-width: 800px) {
-  .content {
-    margin: 0px, 20px;
-  }
-  
-  .navigator {
-    margin-bottom: 20px;
-  }
-  
-  .display {
-    margin-right: 20px;
-    border-radius: 5px;
-  }
-}
-
-
-@media screen and (max-width: 800px) {
-  .content {
-    flex-direction: column;
-  }
-
-  .navigator {
-    align-items: center;
-  }
-  
-  .display {
-    margin-right: 0px;
-    border-radius: 0px;
-  }
-}
-
 html {
   font-family: 'Work Sans', helvetica;
 }
 
-.content {
-  display: flex;
-}
-
 .display {
-  height: 85vh;
   background-color: rgba(203, 203, 203, 0.3);
   flex-grow: 5;
   display: flex;
@@ -95,7 +59,7 @@ body {
 
 .bio p {
   margin: 10px 0px;
-  text-align: center;
+  max-width: 800px;
 }
 
 .techBio {

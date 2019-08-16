@@ -5,7 +5,9 @@ const Templates = {
     const bio = document.createElement('div');
     bio.innerHTML = `
       <div class="bio">
+        <h1>Bio</h1>
         <p>${info.personal}</p>
+        <p>${info.personal_two}</p>
         <p class="techBio">${info.technical}</p>
         <img class="bioDivider" src="images/floral.svg"></img>
       </div>`;
@@ -13,7 +15,7 @@ const Templates = {
   },
   projectList(bundles) {
     const list = document.createElement('div');
-    const header = document.createElement('h2');
+    const header = document.createElement('h1');
     header.setAttribute('class', 'projectListHeader');
     header.innerText = 'Projects';
     list.setAttribute('class', 'projectList');

@@ -38,7 +38,11 @@ const Templates = {
     image.setAttribute('src', `/images/${info.image}`);
     const details = Templates.projectDetails(info.details);
     details.setAttribute('class', 'projectDetails');
+    const date = document.createElement('p');
+    date.setAttribute('class', 'headerDate');
+    date.innerText = info.date;
     header.append(title);
+    header.append(date);
     header.append(image);
     container.append(header);
     container.append(details);

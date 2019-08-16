@@ -8,7 +8,7 @@ const Templates = {
         <h1>Bio</h1>
         <p>${info.personal}</p>
         <p>${info.personal_two}</p>
-        <p class="techBio">${info.technical}</p>
+        <p>${info.technical}</p>
         <img class="bioDivider" src="images/floral.svg"></img>
       </div>`;
     return bio;

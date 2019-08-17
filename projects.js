@@ -1,10 +1,25 @@
 export default [
   {
+    title: "webDAW",
+    date: "July 2019-Present",
+    details: {
+      summary: "Cloud-native Digital Audio Workstation, works in conjunction with WebSynth",
+      technologies: ["Web Audio", "Wed MIDI", "WebSockets", "Node.js", "Express"]
+    },
+    image: "mixer.jpg",
+    links: [
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/WebDaw"
+      }
+    ]
+  },
+  {
     title: "websynth",
     date: "July 2019-Present",
     details: {
       summary: "A browser-based synthesizer",
-      technologies: ["Web Audio API", "Web MIDI API", "VanillaJS", "Node.js", "Express"],
+      technologies: ["Web Audio", "Web MIDI", "WebSockets", "VanillaJS", "Node.js", "Express"],
     },
     image: "midi-key.png",
     links: [

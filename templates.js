@@ -46,7 +46,7 @@ const Templates = {
     header.append(image);
     container.append(header);
     container.append(details);
-    return Controller.linkProject(container, info.link);
+    return Controller.linkProject(container, info.live || info.github);
   },
   projectDetails(details) {
     const detailContainer = document.createElement('div');

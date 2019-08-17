@@ -7,7 +7,19 @@ export default [
       technologies: ["Web Audio API", "Web MIDI API", "VanillaJS", "Node.js", "Express"],
     },
     image: "midi-key.png",
-    link: "https://slhodak.github.io/WebSynth/dist"
+    live: "https://slhodak.github.io/WebSynth/dist",
+    github: "https://github.com/slhodak/WebSynth"
+  },
+  {
+    title: "FreeSeats Reviews",
+    date: "June 2019",
+    details: {
+      summary: "Full-stack, deployed customer review microservice for a restaurant reservation web application",
+      technologies: ["React", "PostgreSQL", "Docker", "AWS EC2", "Node.js"]
+    },
+    image: "reviews.png",
+    live: "http://18.236.145.253:3010/3",
+    github: "https://github.com/slhodak/slhodak-reviews-and-impressions"
   },
   {
     title: "Crypto Viewer",
@@ -17,7 +29,7 @@ export default [
       technologies: ["React", "Chart.js", "CoinDesk API", "Node.js", "Express"],
     },
     image: "crypto_img.png",
-    link: "https://github.com/slhodak/crypto_viewer"
+    github: "https://github.com/slhodak/crypto_viewer"
   },
   {
     title: "Tic-Tac-Toe",
@@ -27,7 +39,7 @@ export default [
       technologies: ["Node.js", "Express"],
     },
     image: "tic-tac-toe.png",
-    link: "https://slhodak.github.io/hrsf116-tic-tac-toe/public"
+    live: "https://slhodak.github.io/hrsf116-tic-tac-toe/public"
   },
   {
     title: "Islanders",
@@ -37,6 +49,7 @@ export default [
       technologies: ["jQuery"],
     },
     image: "islanders.png",
-    link: "https://slhodak.github.io/Islanders"
+    live: "https://slhodak.github.io/Islanders",
+    github: "https://github.com/slhodak/Islanders"
   }
 ];

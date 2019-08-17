@@ -1,9 +1,8 @@
 const Controller = {
-  linkProject(item, link) {
-    item.addEventListener('mousedown', e => {
+  addLink(element, link) {
+    element.addEventListener('mousedown', e => {
       window.open(link, '_blank');
     });
-    return item;
   }
 };
 

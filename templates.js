@@ -41,12 +41,14 @@ const Templates = {
     const date = document.createElement('p');
     date.setAttribute('class', 'headerDate');
     date.innerText = info.date;
+    const links = Templates.projectLinks(info.links);
     header.append(title);
     header.append(date);
     header.append(image);
+    container.append(links);
     container.append(header);
     container.append(details);
-    return Controller.linkProject(container, info.live || info.github);
+    return container;
   },
   projectDetails(details) {
     const detailContainer = document.createElement('div');
@@ -62,6 +64,18 @@ const Templates = {
     });
     detailContainer.append(techList);
     return detailContainer;
+  },
+  projectLinks(links) {
+    const linksContainer = document.createElement('div');
+    linksContainer.setAttribute('class', 'linksContainer');
+    links.forEach(link => {
+      const projLink = document.createElement('button');
+      projLink.setAttribute('class', 'projLink');
+      projLink.innerText = link.text;
+      Controller.addLink(projLink, link.href)
+      linksContainer.append(projLink);
+    });
+    return linksContainer;
   }
 };
 

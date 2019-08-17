@@ -7,8 +7,16 @@ export default [
       technologies: ["Web Audio API", "Web MIDI API", "VanillaJS", "Node.js", "Express"],
     },
     image: "midi-key.png",
-    live: "https://slhodak.github.io/WebSynth/dist",
-    github: "https://github.com/slhodak/WebSynth"
+    links: [
+      {
+        text: "Live",
+        href: "https://slhodak.github.io/WebSynth/dist"
+      },
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/WebSynth"
+      }
+    ]
   },
   {
     title: "FreeSeats Reviews",
@@ -18,8 +26,16 @@ export default [
       technologies: ["React", "PostgreSQL", "Docker", "AWS EC2", "Node.js"]
     },
     image: "reviews.png",
-    live: "http://18.236.145.253:3010/3",
-    github: "https://github.com/slhodak/slhodak-reviews-and-impressions"
+    links: [
+      {
+        text: "Live",
+        href: "http://18.236.145.253:3010/3"
+      },
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/reviews-module"
+      }
+    ]
   },
   {
     title: "Crypto Viewer",
@@ -29,7 +45,12 @@ export default [
       technologies: ["React", "Chart.js", "CoinDesk API", "Node.js", "Express"],
     },
     image: "crypto_img.png",
-    github: "https://github.com/slhodak/crypto_viewer"
+    links: [
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/crypto_viewer"
+      }
+    ]
   },
   {
     title: "Tic-Tac-Toe",
@@ -39,7 +60,12 @@ export default [
       technologies: ["Node.js", "Express"],
     },
     image: "tic-tac-toe.png",
-    live: "https://slhodak.github.io/hrsf116-tic-tac-toe/public"
+    links: [
+      {
+        text: "Live",
+        href: "https://slhodak.github.io/hrsf116-tic-tac-toe/public"
+      }
+    ]
   },
   {
     title: "Islanders",
@@ -49,7 +75,15 @@ export default [
       technologies: ["jQuery"],
     },
     image: "islanders.png",
-    live: "https://slhodak.github.io/Islanders",
-    github: "https://github.com/slhodak/Islanders"
+    links: [
+      {
+        text: "Live",
+        href: "https://slhodak.github.io/Islanders"
+      },
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/Islanders"
+      }
+    ]
   }
 ];

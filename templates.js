@@ -6,6 +6,7 @@ const Templates = {
     bio.innerHTML = `
       <div class="bio">
         <h1>Bio</h1>
+        <p>${info.summary}</p>
         <p>${info.personal}</p>
         <p>${info.personal_two}</p>
         <p>${info.technical}</p>

@@ -38,7 +38,7 @@ export default [
     date: "June 2019",
     details: {
       summary: "Full-stack, deployed customer review microservice for a restaurant reservation web application",
-      technologies: ["React", "PostgreSQL", "Docker", "AWS EC2", "Node.js"]
+      technologies: ["React", "PostgreSQL", "Docker", "AWS EC2", "Node.js", "Webpack"]
     },
     image: "reviews.png",
     links: [
@@ -64,6 +64,21 @@ export default [
       {
         text: "GitHub",
         href: "https://github.com/slhodak/crypto_viewer"
+      }
+    ]
+  },
+  {
+    title: "Quadrants of Productivity",
+    date: "Started March 2018, revisited August 2019",
+    details: {
+      summary: "A task organizer that prioritizes items by motivation and necessity",
+      technologies: ["React", "Webpack"]
+    },
+    image: "todo.png",
+    links: [
+      {
+        text: "Live",
+        href: "https://github.com/slhodak/quadrants-of-productivity/public"
       }
     ]
   },

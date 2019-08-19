@@ -79,6 +79,10 @@ export default [
       {
         text: "Live",
         href: "https://slhodak.github.io/quadrants-of-productivity/public"
+      },
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/quadrants-of-productivity"
       }
     ]
   },

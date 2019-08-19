@@ -1,5 +1,6 @@
 export default [
   {
+    active: true,
     title: "webDAW",
     date: "July 2019-Present",
     details: {
@@ -15,6 +16,7 @@ export default [
     ]
   },
   {
+    active: true,
     title: "websynth",
     date: "July 2019-Present",
     details: {
@@ -34,11 +36,12 @@ export default [
     ]
   },
   {
+    active: true,
     title: "FreeSeats Reviews",
     date: "June 2019",
     details: {
       summary: "Full-stack, deployed customer review microservice for a restaurant reservation web application",
-      technologies: ["React", "PostgreSQL", "Docker", "AWS EC2", "Node.js", "Webpack"]
+      technologies: ["React.js", "PostgreSQL", "Docker", "AWS EC2", "Node.js", "Express", "Webpack"]
     },
     image: "reviews.png",
     links: [
@@ -53,11 +56,12 @@ export default [
     ]
   },
   {
+    active: true,
     title: "Crypto Viewer",
     date: "June 2019",
     details: {
       summary: "Renders recent crypto price data.",
-      technologies: ["React", "Chart.js", "CoinDesk API", "Node.js", "Express"],
+      technologies: ["React.js", "Chart.js", "CoinDesk API", "Node.js", "Express"],
     },
     image: "crypto_img.png",
     links: [
@@ -68,11 +72,12 @@ export default [
     ]
   },
   {
+    active: true,
     title: "Task Prioritizer",
-    date: "Started March 2018, revisited August 2019",
+    date: "Started March 2019, revisited August 2019",
     details: {
       summary: "A task organizer that prioritizes items by motivation and necessity",
-      technologies: ["React", "Webpack"]
+      technologies: ["React.js", "Webpack"]
     },
     image: "todo.jpg",
     links: [
@@ -87,6 +92,7 @@ export default [
     ]
   },
   {
+    active: false,
     title: "Tic-Tac-Toe",
     date: "May 2019",
     details: {
@@ -102,6 +108,7 @@ export default [
     ]
   },
   {
+    active: true,
     title: "Islanders",
     date: "March 2019",
     details: {

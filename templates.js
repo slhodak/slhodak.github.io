@@ -22,7 +22,9 @@ const Templates = {
     list.setAttribute('class', 'projectList');
     list.append(header);
     bundles.forEach(info => {
-      list.append(Templates.projectListItem(info));
+      if (info.active) {
+        list.append(Templates.projectListItem(info));
+      }
     });
     return list;
   },

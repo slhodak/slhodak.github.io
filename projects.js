@@ -68,7 +68,7 @@ export default [
     ]
   },
   {
-    title: "Quadrants of Productivity",
+    title: "Task Prioritizer",
     date: "Started March 2018, revisited August 2019",
     details: {
       summary: "A task organizer that prioritizes items by motivation and necessity",

@@ -74,7 +74,7 @@ export default [
       summary: "A task organizer that prioritizes items by motivation and necessity",
       technologies: ["React", "Webpack"]
     },
-    image: "todo.png",
+    image: "todo.jpg",
     links: [
       {
         text: "Live",

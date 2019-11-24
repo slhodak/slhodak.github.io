@@ -6,10 +6,9 @@ const Templates = {
     bio.innerHTML = `
       <div class="bio">
         <h1>Bio</h1>
-        <p>${info.summary}</p>
-        <p>${info.personal}</p>
-        <p>${info.personal_two}</p>
-        <p>${info.technical}</p>
+        <p>${info[0]}</p>
+        <p>${info[1]}</p>
+        <p>${info[2]}</p>
         <img class="bioDivider" src="images/floral.svg"></img>
       </div>`;
     return bio;

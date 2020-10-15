@@ -37,7 +37,7 @@ const Templates = {
     title.innerText = info.title;
     const image = document.createElement('img');
     image.setAttribute('class', 'projectImage');
-    image.setAttribute('src', `/images/${info.image}`);
+    image.setAttribute('src', `images/${info.image}`);
     const details = Templates.projectDetails(info.details);
     details.setAttribute('class', 'projectDetails');
     const date = document.createElement('p');

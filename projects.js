@@ -1,6 +1,26 @@
 export default [
   {
     active: true,
+    title: "Message Lake",
+    date: "August 2020-Present",
+    details: {
+      summary: "Productivity tool",
+      technologies: ["Node.js", "React", "Webpack"]
+    },
+    image: "lakelogo.png",
+    links: [
+      {
+        text: "Live",
+        href: "http://18.234.63.65:3000/"
+      },
+      {
+        text: "GitHub",
+        href: "https://github.com/MessageLake/mlake2"
+      }
+    ]
+  },
+  {
+    active: false,
     title: "webDAW",
     date: "July 2019-Present",
     details: {
@@ -18,7 +38,7 @@ export default [
   {
     active: true,
     title: "websynth",
-    date: "July 2019-Present",
+    date: "July-August 2019",
     details: {
       summary: "A browser-based synthesizer",
       technologies: ["Web Audio", "Web MIDI", "WebSockets", "VanillaJS", "Node.js", "Express"],
@@ -45,10 +65,6 @@ export default [
     },
     image: "reviews.png",
     links: [
-      {
-        text: "Live",
-        href: "http://18.236.145.253:3010/3"
-      },
       {
         text: "GitHub",
         href: "https://github.com/slhodak/reviews-module"

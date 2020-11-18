@@ -5,7 +5,7 @@ const Templates = {
     const bio = document.createElement('div');
     bio.innerHTML = `
       <div class="bio">
-        <h1>Bio</h1>
+        <h1>Hi</h1>
         <p>${info[0]}</p>
         <p>${info[1]}</p>
         <p>${info[2]}</p>

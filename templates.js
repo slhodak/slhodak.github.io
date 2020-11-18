@@ -9,6 +9,7 @@ const Templates = {
         <p>${info[0]}</p>
         <p>${info[1]}</p>
         <p>${info[2]}</p>
+        <p>${info[3]}</p>
         <img class="bioDivider" src="images/floral.svg"></img>
       </div>`;
     return bio;

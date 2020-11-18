@@ -1,7 +1,8 @@
 const Bio = [
-  "&nbsp;&nbsp;&nbsp;&nbsp;I'm a web developer with personal interests in information security, robotics, and augmented reality.",
-  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2013 I earned a B.A. in Philosophy from Boston University, and I spent my early-mid 20s as a music producer and songwriter. Over the years I had coded for fun, and I eventually enrolled in the Hack Reactor Software Engineering Immersive.",
-  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've been a professional developer since the end of my time at Hack Reactor. I'm endlessly curious about software; my hope is that my computer and I never misunderstand each other."
+  "I write computer programs, including ones that run across multiple computers.",
+  "In 2013 Boston University gave me a degree for studying Philosophy, and I spent my early-mid 20s writing songs. When I turned 28, I moved to San Francisco to learn about software. Shortly after that, I got a job writing back-end code in Ruby and Java.",
+  "If I'd been born in 5000BCE, I'd have been singing while I made bows, arrows, and drums. In 1500CE, maybe a loom. Making a loom sounds interesting.",
+  "(I hope we would have never used the arrows on anything but deer.)",
 ];
 
 export default Bio;

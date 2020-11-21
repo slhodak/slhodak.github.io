@@ -1,26 +1,6 @@
 export default [
   {
     active: true,
-    title: "Eduworld",
-    date: "October 2020-Present",
-    details: {
-      summary: "Insights at a glance",
-      technologies: ["Python", "Pandas", "Bokeh"]
-    },
-    image: "school.png",
-    links: [
-      {
-        text: "Live",
-        href: "http://34.219.243.164:3000/"
-      },
-      {
-        text: "GitHub",
-        href: "https://github.com/slhodak/eduworld"
-      }
-    ]
-  },
-  {
-    active: true,
     title: "Message Lake",
     date: "August 2020-Present",
     details: {
@@ -36,6 +16,26 @@ export default [
       {
         text: "GitHub",
         href: "https://github.com/MessageLake/mlake2"
+      }
+    ]
+  },
+  {
+    active: true,
+    title: "Eduworld",
+    date: "October 2020-Present",
+    details: {
+      summary: "Insights at a glance",
+      technologies: ["Python", "Pandas", "Bokeh"]
+    },
+    image: "school.png",
+    links: [
+      {
+        text: "Live",
+        href: "http://34.219.243.164:3000/"
+      },
+      {
+        text: "GitHub",
+        href: "https://github.com/slhodak/eduworld"
       }
     ]
   },

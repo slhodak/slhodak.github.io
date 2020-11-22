@@ -7,7 +7,7 @@ export default [
       summary: "Productivity tool",
       technologies: ["Node.js", "React", "Webpack"]
     },
-    image: "lakelogo.png",
+    image: "lakelogo2.png",
     links: [
       {
         text: "Live",
